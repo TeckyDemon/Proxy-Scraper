@@ -114,7 +114,7 @@ git clone "https://github.com/DeBos99/proxy-scraper.git"
 | -h, --help                                | Shows help message and exits.  |               |
 | -v, --version                             | Shows version and exits.       |               |
 | -l, --level {transparent,anonymous,elite} | Sets level of proxy anonymity. | any           |
-| -o, --output FILE                         | Sets output file name.         | proxies.txt   |
+| -o, --output FILE                         | Sets output filename.          | proxies.txt   |
 
 ## Authors
 

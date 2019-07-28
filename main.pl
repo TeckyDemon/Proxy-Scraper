@@ -6,7 +6,7 @@ use LWP::UserAgent qw(new);
 use Term::ANSIColor qw(color colored);
 use WWW::UserAgent::Random qw(rand_ua);
 
-my $VERSION='1.0.0';
+my $VERSION='1.0.1';
 
 my $type;
 my $level='any';
@@ -33,12 +33,12 @@ do{
 		when(['-o','--output']){$output_file_path=get_arg(1,1)}
 		default{
 			print color 'blue';
-			print "usage: perl main.pl [-h] [-v] -t {http,https,socks4,socks5} [-l {transparent,anonymous,elite}] [-o FILE] [-a API KEY] \n";
-			print "  -h, --help            show this help message and exit\n";
+			print "usage: perl main.pl [-h] [-v] -t {http,https,socks4,socks5} [-l {transparent,anonymous,elite}] [-o PATH] \n";
+			print "  -h, --help            show help message and exit\n";
 			print "  -v, --version            show version and exit\n";
 			print "  -t, --type {http,https,socks4,socks5}\n            set type of proxy\n";
 			print "  -l, --level {transparent,anonymous,elite}\n            set level of proxy anonymity\n";
-			print "  -o, --output FILE\n            set output file name\n";
+			print "  -o, --output PATH\n            set path to output file\n";
 			if(not $_~~[undef,'-h','--help']){die colored "[-] Invalid option \"$_\".\n",'red'}
 			print color 'reset';
 			exit;
