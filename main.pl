@@ -6,7 +6,7 @@ use LWP::UserAgent qw(new);
 use Term::ANSIColor qw(color colored);
 use WWW::UserAgent::Random qw(rand_ua);
 
-my $VERSION='1.0.2';
+my $VERSION='1.0.3';
 
 my $type;
 my $level='any';

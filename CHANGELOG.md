@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2019-08-12
+
+### Added
+
+- [.gitignore](.gitignore) file.
+
+### Fixed
+
+##### [CHANGELOG.md](CHANGELOG.md)
+
+- Typo.
+
 ## [1.0.2] - 2019-07-28
 
 ### Added
@@ -26,7 +38,6 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- [.gitignore](.gitignore) file.
 - [CHANGELOG.md](CHANGELOG.md) file.
 - [main.pl](main.pl) file.
 - [README.md](README.md) file.
