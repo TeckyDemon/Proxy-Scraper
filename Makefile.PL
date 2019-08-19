@@ -17,6 +17,7 @@ my %WriteMakefileArgs = (
 		'Exporter'               => '0',
 		'LWP::UserAgent'         => '0',
 		'Term::ANSIColor'        => '0',
+		'Win32::Console::ANSI'   => '0',
 		'WWW::UserAgent::Random' => '0',
 		'List::Util'             => '1.33',
 	},
