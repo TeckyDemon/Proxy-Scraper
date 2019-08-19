@@ -1,0 +1,6 @@
+bin/proxy-scraper
+lib/Proxy/Scraper.pm
+Changes
+LICENSE
+Makefile.PL
+MANIFEST

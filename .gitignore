@@ -1,1 +1,4 @@
 *.txt
+*.tar.gz
+Makefile
+MYMETA.*

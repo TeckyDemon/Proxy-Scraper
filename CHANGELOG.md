@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2019-08-20
+
+### Added
+
+- [bin/proxy-scraper](bin/proxy-scraper) file.
+- [lib/Proxy/Scraper.pm](lib/Proxy/Scraper.pm) file.
+- [Changes](Changes) file.
+- [Makefile.PL](Makefile.PL) file.
+- [MANIFEST](MANIFEST) file.
+
+##### [.gitignore](.gitignore)
+
+- Patterns.
+
+### Changed
+
+##### [README.md](README.md)
+
+- `Installation` section.
+
+### Removed
+
+- [main.pl](main.pl) file.
+
 ## [1.0.3] - 2019-08-12
 
 ### Added
@@ -39,12 +63,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - [CHANGELOG.md](CHANGELOG.md) file.
+- [LICENSE](LICENSE) file.
 - [main.pl](main.pl) file.
 - [README.md](README.md) file.
 - [VERSION](VERSION) file.
-
-## [1.0.0] - 2019-07-28
-
-### Added
-
-- [LICENSE](LICENSE) file.
