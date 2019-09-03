@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2019-09-03
+
+### Added
+
+##### [bin/proxy-scraper](bin/proxy-scraper)
+
+- `debug` mode.
+
+##### [lib/Proxy/Scraper.pm](lib/Proxy/Scraper/pm)
+
+- Support for `debug` mode.
+
+##### [.gitignore](.gitignore)
+
+- `blib` directory.
+- `pm_to_blib` file.
+
+##### [Makefile.PL](Makefile.PL)
+
+- Missing requirement.
+
+##### [README.md](README.md)
+
+- Argument description.
+
 ## [2.0.1] - 2019-08-20
 
 ### Added

@@ -102,6 +102,7 @@ cpan -i Proxy::Scraper
 | :---------------------------------------- | :----------------------------- | :------------ |
 | -h, --help                                | Shows help message and exits.  |               |
 | -v, --version                             | Shows version and exits.       |               |
+| -d, --debug                               | Enables debug mode.            | false         |
 | -l, --level {transparent,anonymous,elite} | Sets level of proxy anonymity. | any           |
 | -o, --output PATH                         | Sets output filename.          | proxies.txt   |
 
